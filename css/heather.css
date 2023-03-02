@@ -1,0 +1,20 @@
+.logo{
+    width: 3.8vw;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+.icons__logo{
+    display: flex;
+    margin-top: 1vh;
+    margin-right: 2vw;
+    gap: 2vw;
+}
+
+.icone__heather{
+   width: 1.9vw;
+}
+
+.icone__comunidade{
+    width: 2.3vw;
+}

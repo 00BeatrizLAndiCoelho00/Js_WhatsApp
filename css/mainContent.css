@@ -1,0 +1,11 @@
+.contatos{
+    background-color: cadetblue;
+    height: 100%;
+    width: 67vw;
+    border-right: 1px solid var(--heatherFontColor);
+}
+.chats{
+    background-color: var(--medium);
+    height: 100%;
+    width: 100%;
+}
