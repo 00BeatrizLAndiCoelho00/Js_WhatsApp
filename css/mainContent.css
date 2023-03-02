@@ -1,11 +1,103 @@
-.contatos{
-    background-color: cadetblue;
-    height: 100%;
-    width: 67vw;
-    border-right: 1px solid var(--heatherFontColor);
+
+
+.content{
+
+    margin-top: 2vh;
+    height: 98%;
+    width: 95vw;
+    background-color: brown;
+    margin-left: 8.5vw;
+    margin-right: 8.5vw;
+    display: flex;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border-radius: 2px;
 }
+
+.contacts{
+
+    height: 100%;
+    width: 25.5vw;
+    border-right: 1px solid var(--heatherFontColor);
+    background-color: var(--dark);
+}
+
 .chats{
+
     background-color: var(--medium);
     height: 100%;
-    width: 100%;
+    width: 70%;
+    border-right:1px solid rgb(43, 43, 43);
+
 }
+
+.profile__heather{
+
+    background-color: var(--medium);
+    height: 6.4vh;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.profile__picture{
+
+    width: 5vh;
+    margin-left: 0.7vw;
+}
+.icons__heather{
+
+    display: flex;
+    width: 20vh;
+    justify-content: end;
+    gap: 1.3vw;
+    margin-right: 1.3vw;
+    cursor: pointer;
+}
+
+.icon__heather__top{
+    width: 2.5vh; 
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.search__bar{
+
+   height: 5.5vh;
+    background-color: var(--dark);
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.search__bar__search__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 1vw; */
+}
+.filter{
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.icon__search{
+   width: 0.8vw;
+   
+}
+
+.input__search{
+    background-color: var(--medium);
+    border: 2px;
+    border-radius: 9px;
+    height: 3.8vh;
+    width: 22.3vw;
+    display: flex;
+    color: var(--font__Color);
+
+    margin-left: 0.5vw;
+} 
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */

@@ -40,25 +40,29 @@ body{
     width: 100%;
     color: var(--font__Color);
     font-family: 'Fira Sans Condensed', sans-serif;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     display: flex;
+    background-color: var(--dark);
+
 
 }
 
 header{
-    background-color: var(--medium);
+    /* background-color: var(--medium); */
     height: 10vh;
     width: 100%;
-    color: var(--heatherFontColor);
+    /* color: var(--heatherFontColor);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
     
         
 
 }
 main{
    background-color: var(--dark); 
-   height: 90vh;
+   height: 100vh;
    width: 100%;
    display: flex;
+   justify-content: center;
+ 
 }
